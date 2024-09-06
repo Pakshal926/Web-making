@@ -1,0 +1,132 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styling */
+.logo-black {
+    position: absolute; /* Allows precise positioning */
+    top: 20px; /* Distance from the top */
+    left: 20px; /* Distance from the left */
+    max-width: 100px; /* Smaller size for the logo */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Container styling */
+.container {
+    margin: 80px auto 20px; /* Adds top margin to ensure container isn't hidden under logo */
+    width: 80%;
+    max-width: 600px; /* Max width for larger screens */
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center text inside the container */
+}
+
+/* Heading styling */
+.container h1 {
+    margin: 20px 0;
+    color: #333;
+}
+
+/* Paragraph styling */
+.container p {
+    color: #666;
+}
+.flash-messages {
+    margin-top: 20px;
+}
+
+.flash-messages p {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #fff;
+    text-align: center;
+}
+
+.error {
+    background-color: #e74c3c; /* Red for error */
+}
+
+.success {
+    background-color: #2ecc71; /* Green for success */
+}
+
+.info {
+    background-color: #3498db; /* Blue for info */
+}
+/* Login container styling */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 80px auto; /* Center the login container vertically and horizontally */
+}
+
+/* Login form styling */
+.login-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-container label {
+    display: block;
+    margin: 10px 0 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #4cae4c;
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.button:hover {
+    background-color: #4cae4c;
+}

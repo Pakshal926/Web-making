@@ -1,0 +1,22 @@
+# OSX
+#
+.DS_Store
+
+# ignore ALL .log files
+*.log
+
+# ignore db file
+*.db
+
+# env
+.env
+.idea/*
+
+uploads/*
+
+venv/*
+.venv
+Temp
+
+__pycache__
+*/__pycache__
